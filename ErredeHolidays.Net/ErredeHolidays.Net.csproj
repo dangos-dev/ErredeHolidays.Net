@@ -1,0 +1,33 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <PackageId>Errede.Holidays</PackageId>
+    <Authors>Dangos.dev</Authors>
+    <Title>Errede Holidays - Feriados de la República Dominicana</Title>
+    <Description>Lista y ayuda a validar los días feriados de la República Dominciana</Description>
+    <PackageTags>Dominican Republic;DR;Holliday;Hollidays;Feriado;Errede</PackageTags>
+    <PackageProjectUrl>https://github.com/dangos-dev/ErredeHolidays.Net</PackageProjectUrl>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <RepositoryUrl>https://github.com/dangos-dev/ErredeHolidays.Net</RepositoryUrl>
+    <PackageReleaseNotes>- Lista de todos los feriados
+- Validación si un dia es feriado o no
+- Soporta feriados católicos variables</PackageReleaseNotes>
+    <PackageLicenseFile>LICENCE</PackageLicenseFile>
+    <Version>1.0.1</Version>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Update="LICENCE">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+    <None Update="README.md">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
+
+</Project>
